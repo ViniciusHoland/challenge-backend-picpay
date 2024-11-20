@@ -42,6 +42,19 @@ public class Wallet {
 	public Wallet() {
 		super();
 	}
+	
+	
+
+	public Wallet(String fullName, String cpfCnpj, String email, String password, WalletType walletType) {
+		super();
+		this.fullName = fullName;
+		this.cpfCnpj = cpfCnpj;
+		this.email = email;
+		this.password = password;
+		this.walletType = walletType;
+	}
+
+
 
 	public Long getId() {
 		return Id;
